@@ -10,13 +10,13 @@ Welcome to GDB Online.
 
   int main() {
       printf("===============================");
-      printf("\n     STUDENT PROFILE ");
+      printf("\n     STUDENT PROFILE           ");
       printf("\n===============================");
-      printf("\n Name: Edcie May R. Gura");
-      printf("\n Course and Section:BSIT-1R14");
-      printf("\n Year level:1st year");
+      printf("\n Name: Edcie May R. Gura       ");
+      printf("\n Course and Section:BSIT-1R14  ");
+      printf("\n Year level:1st year           ");
       printf("\n===============================");
-      printf("\n     FUTURE PROGRAMMERS");
+      printf("\n     FUTURE PROGRAMMERS        ");
       printf("\n===============================");
       return 0;
   }
