@@ -1,0 +1,58 @@
+#include<stdio.h>
+
+
+int main()
+{
+   char name[20];
+   char section[20];
+   float q1,q2,q3,q4;
+   float total=366;
+   float d=4;
+   float average=91.50;
+   
+    
+    printf("Enter Complete Name: ");
+    fgets(name,sizeof(name),stdin);
+    printf("Enter Section: ");
+    fgets(section,sizeof(section),stdin);
+    
+    printf("\nEnter 1st Quarter Grade: ");
+    scanf("%f",&q1);
+    printf("Enter 2nd Quarter Grade: ");
+    scanf("%f",&q2);
+    printf("Enter 3rd Quarter Grade: ");
+    scanf("%f",&q3);
+    printf("Enter 4th Quarter Grade: ");
+    scanf("%f",&q4);
+   
+    printf("\n");
+    printf("Student: %s",name);
+    printf("Section: %s",section);
+    printf("General average:%.2f\n",average);
+    printf("remarks:%.2f",average);
+    scanf("%.2f",&average);
+    
+    if(average >=90 && average <=100){
+      printf("Outstanding");
+    }
+    else if(average >=85 && average <=89){
+       printf("very satisfactory");
+    }
+    else if(average >=80 && average <=84){
+       printf("satisfactory");
+    } 
+    else if(average >=75 && average <=79){
+      printf("fair");
+    }
+    
+    else {
+      printf("failed");
+    }
+    
+    
+    printf("\n%.0f+%.0f+%.0f+%.0f=%.0f",q1,q2,q3,q4,q1+q2+q3+q4);
+    printf("\n%.0f/%.0f=%.2f",total,d,total/d);
+    scanf("%.2f",&total,d);
+
+    return 0;
+}
